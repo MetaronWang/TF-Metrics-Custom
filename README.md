@@ -5,7 +5,7 @@ Estimator is a high-level api in TensorFLow, and it's high-efficent and useful w
 
 There is an inconvenience in estimator that you must use the method in tf.metric to evaluate your model, and it's necessary to use TensorFlow operator to define the metric formulation if you want to customize a new metric. There are some common metrics in the tf.metrics package which usually used in the tranditional classification or regression tasks. But for some task that need complex data postprocessing, we have to write the metric by oueselves.
 
-It is well known that the TensorFlow operator api is too difficult to use. So, I will upload some metrics wrote by myself to this repo.
+It is well known that the TensorFlow operator api is too difficult to use. So, I will upload some metrics wrote by myself to this repo, aim to save time to rewrite them. I hope  this is useful for you. If you want to conribute new metric, please submit a PR and you need follow the code style in tf.metrics.
 
 ## The metrics list:
 - Knowledge Graph Completion Task：
